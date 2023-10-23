@@ -55,7 +55,7 @@ __metadata:
   dependencies:
     "@apps-shared/indexers": "workspace:^"
     "@aws-sdk/client-dynamodb": ^3.159.0
-    "@aws-sdk/util-dynamodb": ^3.159.0
+    "@aws-sdk/util-dynamodb": ^3.433.0
     "@types/aws-lambda": ^8.10.102
     "@types/express": ^4.17.13
     "@types/http-errors": ^1.8.2
@@ -83,7 +83,7 @@ __metadata:
   resolution: "@apps-shared/indexers@workspace:indexers/shared"
   dependencies:
     "@aws-sdk/client-dynamodb": ^3.159.0
-    "@aws-sdk/util-dynamodb": ^3.159.0
+    "@aws-sdk/util-dynamodb": ^3.433.0
     "@terra-money/feather.js": ^1.0.4
     "@types/d3-array": ^3.0.3
     "@types/node": ^16.11.56
@@ -557,14 +557,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/util-dynamodb@npm:^3.159.0":
-  version: 3.429.0
-  resolution: "@aws-sdk/util-dynamodb@npm:3.429.0"
+"@aws-sdk/util-dynamodb@npm:^3.433.0":
+  version: 3.433.0
+  resolution: "@aws-sdk/util-dynamodb@npm:3.433.0"
   dependencies:
     tslib: ^2.5.0
   peerDependencies:
     "@aws-sdk/client-dynamodb": ^3.0.0
-  checksum: 22f584557b3a51a38a8d5e9453340f04d7136308351e3275b9af971f3db3213c892c764b24a0064c52d1e94887ef9b509ad018b22287905c3ab24d7bf51d0094
+  checksum: 1d1fed54b2f282cd5dca294fcc8c1b679e4fab843b7e47811d3e9dca3ee4804bc4072364a65cc78024c35268614ddc074a74cb47572a9a636ab6d929dae86262
   languageName: node
   linkType: hard
 
@@ -2459,7 +2459,7 @@ __metadata:
     "@apps-shared/api": "workspace:^"
     "@apps-shared/indexers": "workspace:^"
     "@aws-sdk/client-dynamodb": ^3.159.0
-    "@aws-sdk/util-dynamodb": ^3.159.0
+    "@aws-sdk/util-dynamodb": ^3.433.0
     "@enterprise/indexers": "workspace:^"
     "@types/aws-lambda": ^8.10.102
     "@types/express": ^4.17.13
@@ -2561,7 +2561,7 @@ __metadata:
   dependencies:
     "@apps-shared/indexers": "workspace:^"
     "@aws-sdk/client-dynamodb": ^3.159.0
-    "@aws-sdk/util-dynamodb": ^3.159.0
+    "@aws-sdk/util-dynamodb": ^3.433.0
     "@terra-money/feather.js": ^1.0.4
     "@types/d3-array": ^3.0.3
     "@types/node": ^16.11.56
@@ -2583,7 +2583,7 @@ __metadata:
   resolution: "@enterprise/stats@workspace:indexers/enterprise-stats"
   dependencies:
     "@aws-sdk/client-dynamodb": ^3.159.0
-    "@aws-sdk/util-dynamodb": ^3.159.0
+    "@aws-sdk/util-dynamodb": ^3.433.0
     "@terra-money/feather.js": ^1.0.4
     "@types/d3-array": ^3.0.3
     "@types/memoizee": ^0.4.8
