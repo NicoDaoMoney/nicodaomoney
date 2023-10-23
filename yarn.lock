@@ -2500,7 +2500,7 @@ __metadata:
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.3.0
     "@testing-library/user-event": ^13.5.0
-    "@types/big.js": ^6.1.5
+    "@types/big.js": ^6.2.1
     "@types/jest": ^28.1.8
     "@types/node": ^16.11.56
     "@types/react": ^18.0.17
@@ -4847,10 +4847,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/big.js@npm:^6.1.5":
-  version: 6.2.0
-  resolution: "@types/big.js@npm:6.2.0"
-  checksum: 69216051378559083453eb89ff63c70300928ebe3e5ccf2af98be39cdce1591d206a2206f1b3b97234b281646b54ded4c7bdf67fa4e383dccd278d129694af67
+"@types/big.js@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@types/big.js@npm:6.2.1"
+  checksum: 7c3242c2a35649ec8734a4e658d55adbc9e91dfe7f7fecbc53e39271803fc677a223829f091af3cadaad924210e006aef483b07e293532004c9ba38efc3f59fe
   languageName: node
   linkType: hard
 
