@@ -85,7 +85,7 @@ __metadata:
     "@aws-sdk/client-dynamodb": ^3.159.0
     "@aws-sdk/util-dynamodb": ^3.159.0
     "@terra-money/feather.js": ^1.0.4
-    "@types/d3-array": ^3.0.3
+    "@types/d3-array": ^3.0.9
     "@types/node": ^16.11.56
     axios: ^0.27.2
     big.js: ^6.2.1
@@ -2563,7 +2563,7 @@ __metadata:
     "@aws-sdk/client-dynamodb": ^3.159.0
     "@aws-sdk/util-dynamodb": ^3.159.0
     "@terra-money/feather.js": ^1.0.4
-    "@types/d3-array": ^3.0.3
+    "@types/d3-array": ^3.0.9
     "@types/node": ^16.11.56
     axios: ^0.27.2
     big.js: ^6.2.1
@@ -2585,7 +2585,7 @@ __metadata:
     "@aws-sdk/client-dynamodb": ^3.159.0
     "@aws-sdk/util-dynamodb": ^3.159.0
     "@terra-money/feather.js": ^1.0.4
-    "@types/d3-array": ^3.0.3
+    "@types/d3-array": ^3.0.9
     "@types/memoizee": ^0.4.8
     "@types/node": ^16.11.56
     aws-lambda: ^1.0.7
@@ -4892,10 +4892,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/d3-array@npm:^3.0.3":
-  version: 3.0.8
-  resolution: "@types/d3-array@npm:3.0.8"
-  checksum: d5a678f1dc3af05bc6beb675d59a11d9b2ad4ea59fb5b6c2b99980fec947d89a9562f3ac3a8d192a4f38152d3a4b9ee9cf4e2a30788eaacaed5de4a6da514e10
+"@types/d3-array@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "@types/d3-array@npm:3.0.9"
+  checksum: 5845a39e1c1063664bce6f1f2640ea54ed9f6ce81f3a72b1770fc58a8bd62131abfeb53b4af84b8bde36696adb87023a04d0876d7059b98fb07fb139248c7769
   languageName: node
   linkType: hard
 
