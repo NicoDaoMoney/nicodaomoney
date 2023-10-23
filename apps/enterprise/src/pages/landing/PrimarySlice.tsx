@@ -15,11 +15,11 @@ export const PrimarySlice = () => {
       <Text size={40} weight="bold">
         Nico Money Dao
       </Text>
+      </div>
       <HStack alignItems="center" gap={20}>
         <button className={classNames(styles.btn)} onClick={() => navigate('dashboard')}>
           Launch App
         </button>
       </HStack>
-    </div>
   );
 };
