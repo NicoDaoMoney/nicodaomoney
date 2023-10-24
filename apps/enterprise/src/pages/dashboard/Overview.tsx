@@ -10,7 +10,7 @@ import { NumericStatistic } from 'lib/ui/NumericStatistic';
 import { Spinner } from 'lib/ui/Spinner';
 import { Text } from 'lib/ui/Text';
 import { useProposalsQuery } from 'queries';
-import {button} from './Overview.module.css';
+import styles from './Overview.module.css';
 
 export const Overview = () => {
   // TODO: get this a better way
@@ -23,11 +23,11 @@ export const Overview = () => {
 
   return (
     <SameWidthChildrenRow minChildrenWidth={320} rowHeight={110} gap={16} fullWidth>
-          <button>
+          <div className={classNames(styles.button)}>
         <TitledSection title="Nico Dao Community Pool">
           <NumericStatistic value={formatAmount(totalCommunityPools)} suffix="USD" />
         </TitledSection>
-            </button>
+            </div>
     </SameWidthChildrenRow>
   );
 };
