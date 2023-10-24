@@ -11,12 +11,12 @@ export const PrimarySlice = () => {
   const { isMobile } = useDisplay();
 
   return (
-    <div className={classNames(styles.btn, { [styles.mobile]: isMobile })}>
+    <div>
       <Text size={40} weight="bold">
         Nico Money Dao
       </Text>
       <HStack alignItems="center" gap={20}>
-        <button className={classNames(styles.btn)} onClick={() => navigate('overview')}>
+        <button className={classNames(styles.btn)} onClick={() => navigate('dashboard')}>
           Launch App
         </button>
       </HStack>
