@@ -12,7 +12,7 @@ export const PrimarySlice = () => {
 
   return (
     <div className={classNames(styles.btn, { [styles.mobile]: isMobile })}>
-      <Text size={12} weight="bold">
+      <Text size={40} weight="bold">
         Nico Money Dao
       </Text>
       <HStack alignItems="center" gap={20}>
