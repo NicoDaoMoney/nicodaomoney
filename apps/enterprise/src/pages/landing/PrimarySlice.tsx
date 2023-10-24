@@ -11,7 +11,7 @@ export const PrimarySlice = () => {
   const { isMobile } = useDisplay();
 
   return (
-    <div className={classNames(styles.btn, { [styles.mobile]: isMobile })}>
+    <div>
       <Text size={40} weight="bold">
         Nico Money Dao
       </Text>
