@@ -16,7 +16,7 @@ export const PrimarySlice = () => {
         Nico Money Dao
       </Text>
       <HStack alignItems="center" gap={20}>
-        <button className={classNames(styles.btn)} onClick={() => navigate('overview')}>
+        <button className={classNames(styles.btn)} onClick={() => navigate('dashboard')}>
           Launch App
         </button>
       </HStack>
