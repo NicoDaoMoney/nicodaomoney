@@ -26,7 +26,7 @@ export const GovernanceOverview = () => {
   const configView = fromDao(toDao(dao));
 
   return (
-    <Panel> className={classNames(styles.btn)}>
+    <Panel className={classNames(styles.btn)}>
       <TitledContent title="Governance">
         <Container>
           {Object.entries(configView).map(([name, value]) => {
