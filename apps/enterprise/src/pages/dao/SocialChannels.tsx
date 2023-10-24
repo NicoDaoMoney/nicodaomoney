@@ -32,7 +32,7 @@ export const SocialChannels = () => {
   return (
     <VStack gap={16}>
       <Text weight="bold">Social channels</Text>
-      <div className={classNames(styles.btn)}>
+      <div>
       <Panel>
         <Container>
           {github_username && (
