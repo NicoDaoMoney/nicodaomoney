@@ -26,7 +26,7 @@ export const GovernanceOverview = () => {
   const configView = fromDao(toDao(dao));
 
   return (
-    <div className={classNames(styles.btn)}>
+    <div>
     <Panel>
       <TitledContent title="Governance">
         <Container>
