@@ -26,8 +26,7 @@ export const GovernanceOverview = () => {
   const configView = fromDao(toDao(dao));
 
   return (
-    <div>
-    <Panel>
+    <Panel className={classNames(styles.btn)}>
       <TitledContent title="Governance">
         <Container>
           {Object.entries(configView).map(([name, value]) => {
@@ -41,6 +40,5 @@ export const GovernanceOverview = () => {
         </Container>
       </TitledContent>
     </Panel>
-      </div>
   );
 };
