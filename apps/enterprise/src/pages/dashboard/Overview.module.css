@@ -60,7 +60,6 @@
             calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
             /* bottom-right 2 */
             var(--border-width) calc(100% - var(--border-width)));
-  transition: clip-path 500ms;
 }
 
 .btn::after {
@@ -84,7 +83,6 @@
             calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
             /* bottom-right 2 */
             var(--border-width) calc(100% - var(--border-width)));
-  transition: clip-path 500ms;
 }
 
 .btn:where(:hover, :focus)::after {
