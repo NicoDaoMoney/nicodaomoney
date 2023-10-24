@@ -23,7 +23,7 @@ export const Overview = () => {
 
   return (
     <SameWidthChildrenRow minChildrenWidth={320} rowHeight={110} gap={16} fullWidth>
-          <div className={classNames(styles.btn)}>
+          <div className={classNames(styles.button)}>
         <TitledSection title="Nico Dao Community Pool">
           <NumericStatistic value={formatAmount(totalCommunityPools)} suffix="USD" />
         </TitledSection>
