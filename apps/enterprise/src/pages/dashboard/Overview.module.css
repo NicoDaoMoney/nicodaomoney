@@ -1,71 +1,64 @@
 .btn {
-  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
-  --border-width: .125em;
-  --curve-size: .5em;
-  --blur: 30px;
-  --bg: #080312;
-  --color: #afffff;
-  color: var(--color);
-  position: relative;
-  isolation: isolate;
-  display: inline-grid;
-  place-content: center;
-  padding: .5em 1.5em;
-  font-size: 17px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
   border: 0;
-  text-transform: uppercase;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
-  clip-path: polygon(
-    0% var(--curve-size),
-    var(--curve-size) 0,
-    100% 0,
-    100% calc(100% - var(--curve-size)),
-    calc(100% - var(--curve-size)) 100%,
-    0 100%
-  );
-  transition: color 250ms;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10rem;
+  transition: all 0.02s;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
 }
 
-.btn::before,
-.btn::after {
-  content: '';
+.btn:hover {
+  background: rgb(193, 228, 248);
+  color: rgb(33, 0, 85);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.hoverEffect {
   position: absolute;
-  inset: 0;
-  background-size: 300% 300%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
-.btn::before {
-  background: var(--border-color);
-  animation: move-bg7234 5s ease infinite;
-  z-index: -2;
+.hoverEffect div {
+  background: rgb(222,0,75);
+  background: linear-gradient(90deg, rgba(222,0,75,1) 0%, rgba(191,70,255,1) 49%, rgba(0,212,255,1) 100%);
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
 }
 
-.btn::after {
-  background: var(--bg);
-  z-index: -1;
-  clip-path: polygon(
-    var(--border-width) calc(var(--curve-size) + var(--border-width) * .5),
-    calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
-    calc(100% - var(--border-width)) var(--border-width),
-    calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
-    calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
-    var(--border-width) calc(100% - var(--border-width))
-  );
-  transition: clip-path 500ms;
+.btn:hover .hoverEffect div {
+  width: 8rem;
+  height: 8rem;
 }
 
-.btn:where(:hover, :focus)::before,
-.btn:where(:hover, :focus)::after {
-  clip-path: polygon(
-    calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-    calc(100% - var(--border-width)) var(--border-width),
-    calc(100% - var(--border-width)) var(--border-width),
-    calc(100% - var(--border-width)) calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
-    calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width)),
-    calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)) calc(100% - var(--border-width))
-  );
-}
+@keyframes effect {
 
-.btn:where(:hover, :focus) {
-  color: #fff;
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
