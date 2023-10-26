@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.159.0",
-    "@aws-sdk/util-dynamodb": "^3.159.0",
+    "@aws-sdk/util-dynamodb": "^3.436.0",
     "@terra-money/feather.js": "^1.0.4",
     "@types/node": "^16.11.56",
     "axios": "^0.27.2",
