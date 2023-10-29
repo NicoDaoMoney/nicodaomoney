@@ -32,7 +32,6 @@ export const SocialChannels = () => {
   return (
     <VStack gap={16}>
       <Text weight="bold">Social channels</Text>
-      <Panel className={classNames(styles.btn)}>
         <Container>
           {github_username && (
             <SocialItem icon={<GitHubIcon />} username={github_username} getUrl={createGithubProfileURL} />
@@ -47,7 +46,6 @@ export const SocialChannels = () => {
             <SocialItem icon={<TelegramIcon />} username={telegram_username} getUrl={createTelegramURL} />
           )}
         </Container>
-      </Panel>
     </VStack>
   );
 };
