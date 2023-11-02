@@ -66,7 +66,7 @@ export const Page = () => {
       small={() => (
         <VStack gap={24}>
           <Text size={24} weight="bold">
-            DAOs
+            DAO
           </Text>
           {searchInput}
           {content}
