@@ -4848,9 +4848,9 @@ __metadata:
   linkType: hard
 
 "@types/big.js@npm:^6.1.5":
-  version: 6.2.0
-  resolution: "@types/big.js@npm:6.2.0"
-  checksum: 69216051378559083453eb89ff63c70300928ebe3e5ccf2af98be39cdce1591d206a2206f1b3b97234b281646b54ded4c7bdf67fa4e383dccd278d129694af67
+  version: 6.2.2
+  resolution: "@types/big.js@npm:6.2.2"
+  checksum: 6aeff1b763e71b79bb796c9f395ebecdd5a6aeb997b1c9b9acb2e14aa2f88eec620f26a6aedeba120ec7a881a0834d0b8e9869da864c60bba623f92d6de6f848
   languageName: node
   linkType: hard
 
