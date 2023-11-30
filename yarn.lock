@@ -558,13 +558,13 @@ __metadata:
   linkType: hard
 
 "@aws-sdk/util-dynamodb@npm:^3.159.0":
-  version: 3.429.0
-  resolution: "@aws-sdk/util-dynamodb@npm:3.429.0"
+  version: 3.462.0
+  resolution: "@aws-sdk/util-dynamodb@npm:3.462.0"
   dependencies:
     tslib: ^2.5.0
   peerDependencies:
     "@aws-sdk/client-dynamodb": ^3.0.0
-  checksum: 22f584557b3a51a38a8d5e9453340f04d7136308351e3275b9af971f3db3213c892c764b24a0064c52d1e94887ef9b509ad018b22287905c3ab24d7bf51d0094
+  checksum: 5014b3eabbb66ad5843bd280ce5da65669776ae55320bf19e771f0048e4e65145342e9360384adec8b89ab8f5d88bc37b63c967a976113c3954d70e522ca18b2
   languageName: node
   linkType: hard
 
